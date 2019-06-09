@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+    <span id="logo-wrapper">Custom Toolbar</span>
+    <div id="nav-wrapper">
+      <ul class="menu">
+        <li class="menu-item">
+            <a mat-button routerLink="/" routerLinkActive="mat-accent" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="menu-item">
+            <a mat-button routerLink="/create" routerLinkActive="mat-accent">My Record</a>
+        </li>
+        <li class="menu-item">
+            <a mat-button routerLink="/about" routerLinkActive="mat-accent">About Us</a>
+        </li>
+        <li class="menu-item">
+            <a mat-button routerLink="/signin" routerLinkActive="mat-accent">Sign Out</a>
+        </li>
+      </ul>
+    </div>
+</mat-toolbar>

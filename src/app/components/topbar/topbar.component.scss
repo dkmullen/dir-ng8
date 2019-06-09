@@ -1,0 +1,23 @@
+mat-toolbar {
+  height: 50px;
+}
+
+#nav-wrapper {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  font-size: .8rem;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+
+  & a:hover {
+    opacity: .7;
+  }
+}
+
+.active-link {
+  background: red;
+}
